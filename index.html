@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Your Local Weather</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1 class="text-center">Your Local Weather</h1>
+    <div id="forecastArea" class="text-center">
+      <div id="icon"></div>
+      <h3>Temperature</h3>
+      <div class="text-center" id="currentTemp"></div>
+      <h3>Summary</h3>
+      <div class="text-center" id="weather"></div>
+      <h3>Time Zone</h3>
+      <div class="text-center" id="location"></div>
+      <h3>Wind Speed</h3>
+      <div class="text-center" id="windSpeed"></div>
+    </div>
+    <div class="text-center row">
+      <div class="text-center" id="temp">
+        <button id="tempCel" class="btn btn-primary">Celsius &deg</button>
+        <button id="tempFahr" class="btn btn-primary">Fahrenheit &deg</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="weatherapp.js"></script>
+</body>
+<footer>
+  Powered by <a href="https://darksky.net/poweredby/" target="_blank">Dark Sky</a><br> Created by <a href="https://www.linkedin.com/in/douglas-campbell-5a1226131" target="_blank">Douglas Campbell</a></footer>
+
+</html>
